@@ -3,11 +3,11 @@ Este repositorio está dedicado al registro y gestión de códigos y automatizac
 
 ## Librerías necesarias
 
-**pip install PyPDF2**
-**pip install selenium**
-**pip install pyautogui**
-**pip install openpyxl**
-**pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib**
+- **pip install PyPDF2**
+- **pip install selenium**
+- **pip install pyautogui**
+- **pip install openpyxl**
+- **pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib**
 
 ## CUFE
 Este código, denominado CUFE, se encarga de obtener el estado de las facturas electrónicas. La funcionalidad principal es añadir una columna adicional que contiene valores booleanos, siendo verdaderos aquellos que indican el estado de "Aceptación expresa de la Factura Electrónica de Venta".
