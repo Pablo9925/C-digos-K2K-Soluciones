@@ -20,6 +20,6 @@ Este código tiene como objetivo leer archivos PDF de Órdenes de Compra (PO) y 
 
 - **Lectura de Archivos PDF:** El código puede leer archivos PDF de Órdenes de Compra (PO) ubicados en una carpeta llamada "PO". Esta carpeta debe estar en la misma ubicación que el código.
 
-- **Registro en Google Sheets:** La información extraída se registra en una hoja de cálculo de Google Sheets. Para la vinculación con Google Sheets, se requiere un archivo llamado "key.json", que debe estar presente en la misma carpeta que el código.
+- **Registro en Google Sheets:** La información extraída se registra en una hoja de cálculo de Google Sheets. Para la vinculación con Google Sheets, se requiere un archivo llamado "key.json", que debe estar presente en la misma carpeta que el código. Url donde se realiza el registro: https://docs.google.com/spreadsheets/d/11IqC9lu7w8ggmdP4kjascyZb676TIbRWDYGan2AQPko/edit#gid=0
 
 - **Limitación de Registros:** Debido a políticas de la API de Google, solo se pueden registrar hasta 60 PO simultáneamente. El código permite distinguir las PO que ya están registradas, por lo que esta limitación se aplica solo a las nuevas PO.
